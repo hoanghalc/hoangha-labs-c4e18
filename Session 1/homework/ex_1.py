@@ -28,3 +28,4 @@ time_to_send = now.hour
 
 while time_to_send > 7:
     gmail.send(msg) 
+    break
